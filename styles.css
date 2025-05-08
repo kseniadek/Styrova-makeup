@@ -1,0 +1,470 @@
+
+/* Оформлення головної сторінки */
+
+.body-conteiner {
+    background-color: rgb(51, 48, 48);
+}
+
+.main-conteiner {
+    background-color: rgba(232, 205, 162, 1);
+    width: 390px;
+    margin: 0 auto;
+}
+
+.head-conteiner {
+    padding-top: 72px;  
+}
+
+.logo-bgd {
+    background-color: rgba(173, 132, 66, 1);
+    height: 112.7px;   
+
+}
+
+.logo {
+    
+    font-family: Montserrat;
+    letter-spacing: 0.05em;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.5);
+    padding-left: 22px;
+    text-decoration: none; 
+    position: relative;  
+    bottom: 13px;     
+}
+
+.logo:active {
+    text-shadow: none;
+    
+    
+}
+
+.makeup {
+    
+    letter-spacing: -0.15em;
+    padding-left: 48px;
+}
+
+.services-prices-conteiner {
+    height: 177.2px;
+
+}
+
+.services-prices {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 55px;
+    color: rgba(35, 33, 33, 0.75);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 22px
+    
+}
+
+.services-prices:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+.services-prices:active {
+    text-shadow: none;
+}
+
+.prices {
+    padding-left: 148px;
+    text-align: right; 
+    
+}
+
+.portfolio-conteiner {
+    background-color: rgba(173, 132, 66, 1);
+    /* height: 177px; */
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.portfolio {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 55px;
+    color: rgba(35, 33, 33, 0.75);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 22px;          
+}
+
+.portfolio:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+.portfolio:active {
+    text-shadow: none;
+}
+
+
+.why-me-conteiner {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.why-me {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 55px;
+    color: rgba(35, 33, 33, 0.75);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 22px
+}
+
+.why-me:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+.why-me:active {
+    text-shadow: none;
+}
+
+.img {
+    width: 45px;
+    height: 45px;
+    padding-top: 32px;
+}
+
+
+.footer-conteiner {
+    height: 125px;
+    background-color: rgba(173, 132, 66, 1);
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Оформлення сторінки Послуги і ціни */
+
+
+
+
+.main-header-serv-and-price {
+    margin-left: 157px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+   
+}
+
+
+
+.serv-and-price-element {
+    background-color: rgba(86, 69, 69, 0.55);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin: auto 22px;
+    padding-bottom: 10px;
+   
+}
+
+.serv-and-price-element-header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.serv-and-price-element-list {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* text-align: center; */
+    color: #FFFFFF;
+    list-style: none;
+    padding-right: 24px;
+}
+
+.serv-and-price-element-list-item {
+margin-bottom: 12px;
+}
+
+.price {
+    font-size: 15px; 
+}
+
+.add-price{
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/* оформлення сторінки "Портфоліо" */
+
+/*==================== ВАРІАНТ З КАРУСЕЛЛЮ================== */
+
+.portfilio-list-element1 {
+    width: 346px;
+    margin-left: 24px;
+    background: rgba(86, 69, 69, 0.55);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;  
+    /* position: relative; 
+    z-index: auto; */
+}
+
+
+.arrow {
+    /* position: absolute; */
+    /* top: 302px; */
+    padding: 0;
+    background: none;
+    border:none;
+    font-size: 14px;
+    line-height: 14px;  
+}
+
+.prev {
+    padding: 30px 0;
+    margin-left: 2px;
+}
+.prev:hover {
+    cursor: pointer;
+    background: #fdfdfd75;
+    border-radius: 30px 10px 10px 30px;
+}
+.prev:active {
+    font-size: 12px;
+}
+
+.next {
+    margin-left: 333px;
+    padding: 30px 0;   
+}
+.next:hover {
+    cursor: pointer;
+    background: #fdfdfd75;
+    border-radius: 10px 30px 30px 10px;
+}
+.next:active {
+    font-size: 12px;
+}
+
+
+.carousel {
+    overflow: hidden; 
+    /* position: relative; 
+    z-index: 0; */
+}
+
+
+.list {
+    width: 9999px;
+    height: 111px;
+    list-style: none;
+    display:flex;
+    align-items: center;
+    transition: margin-left 300ms;
+    font-size: 0;
+    padding-left: 20px; 
+    /* position: relative;
+    z-index: auto; */
+    
+    
+}
+
+.list-element {
+    display: inline-block;
+    /* position: relative;
+    z-index: auto; */
+    
+}
+
+
+.photo1 {
+    border-radius: 12px;
+    width: 92px;
+    height: 92px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 18px;   
+    transition: transform 0.25s;   
+}
+
+
+
+
+
+
+/* .photo1:active {
+    transform: scale(2);    
+} */
+
+/* .bigger {
+    transform: scale(2);
+} */
+
+
+
+
+
+
+
+
+
+/*======================== КІНЕЦЬ ================== */
+
+.main-header-portfolio {
+    margin-left: 228px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.portfolio-list-header {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 35px;
+}
+
+
+
+.portfilio-list-element {
+    width: 346px;
+    height: 222px;
+    margin-left: 24px;
+    margin-right: 22px;
+    margin-bottom: 41px;
+    background: rgba(86, 69, 69, 0.55);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+
+
+.photo {
+    border-radius: 12px;
+    width: 91.36px;
+    height: 90.74px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+} 
+
+
+
+
+
+
+/* .photo:hover {
+    border-radius: 12px;
+    width: 600px;
+    height: 600px;
+} */
+
+
+/* Оформлення сторінки Чому я? */
+
+.main-header-why-me {
+    margin-left: 66px;
+    margin-top: 9px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.picture {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 173px;
+    /* height: 155px; */
+    left: 14px;
+    top: 222px;
+    margin-left: 14px;   
+    margin-top: 38px; 
+    
+       
+}
+
+.why-me-first-part {
+    display: flex;
+    position: relative;
+    z-index: 1; 
+   
+}
+
+.why-me-second-part {
+    background: rgba(86, 69, 69, 0.54);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 229px;
+    /* height: 332px; */
+    margin-left: 127px;
+    margin-right: 34px;
+    position: relative;
+    bottom: 145px;        
+}
+
+.hello-text {
+    padding: 12px 10px 17px 75px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FEFCFC;
+    position: relative;
+    z-index: 2;
+}
+.hello {
+    font-weight: 600;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FEFCFC;
+    padding: 20px 39px 0px 25px;
+    
+
+
+}
+
+.why-me-third-part {
+    background: rgba(86, 69, 69, 0.54);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 275px;
+    /* height: 257px; */
+    margin-left: 26px;
+    margin-right: 89px;
+    /* margin-bottom: 40px; */
+    position: relative;
+    bottom: 220px;
+    
+}
+
+.statistic-text {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FEFCFC;
+    padding: 5px 39px 5px 25px;
+}
+
+
+
+
